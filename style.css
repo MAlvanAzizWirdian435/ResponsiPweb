@@ -1,0 +1,75 @@
+:root{
+    --putih: #fafafa;
+    --putihawan: #ddd;
+    --hijau: #34b514;
+    --hitam: #000000;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    max-width: 300px;
+    margin: auto;
+    border: 2px solid var(--hitam);
+    background: var(--putihawan);
+    padding: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid var(--hitam);
+}
+
+select {
+    width: 35%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid var(--hitam);
+}
+
+button {
+    width: 35%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid var(--hitam);
+    background: var(--hijau);
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin: auto;
+}
+
+th {
+    padding: 10px;
+    border: 1px solid var(--hitam);
+    text-align: center;
+    background-color: var(--putihawan);
+}
+
+td {
+    padding: 10px;
+    border: 1px solid var(--hitam);
+    text-align: center;
+    background-color: var(--putih);
+}
